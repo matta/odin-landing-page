@@ -30,6 +30,7 @@ body {
 .dark {
     background-color: var(--hero-background);
     color: var(--hero-primary-text-color);
+    width: 100%;
 }
 
 .header {
