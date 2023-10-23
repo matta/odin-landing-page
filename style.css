@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 36px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
@@ -87,6 +88,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 40px;
 }
 
 .information-card {
@@ -95,7 +97,6 @@ body {
     align-items: center;
     text-align: center;
     flex-basis: 200px;
-    padding: 20px;
 }
 
 img.information-image {
@@ -130,7 +131,7 @@ cite {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 60px;
+    padding: 30px;
 }
 
 .action-box {
