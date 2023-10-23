@@ -1,17 +1,34 @@
+:root {
+    --hero-primary-text-color: #f9faf8;
+    --hero-secondary-color: #e5e7eb;
+    --accent-color: #3882f6;
+    --hero-background: #1f2937;
+}
+
 body {
     display: flex;
     flex-direction: column;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+.logo {
+    font-size: 1.5rem;
+    color: var(--hero-primary-text-color);
+}
+
+.hero-main-text {
+    font-size: 3.0rem;
+    font-weight: 800;
+}
+
 .hero-secondary-text,
 .header-link-text {
-    color: #e5e7eb;
+    color: var(--hero-secondary-color);
 }
 
 .dark {
-    background-color: #1f2937;
-    color: #f9faf8;
+    background-color: var(--hero-background);
+    color: var(--hero-primary-text-color);
 }
 
 .header {
@@ -26,4 +43,23 @@ body {
     display: flex;
     padding: 0;
     gap: 20px;
+}
+
+.awesome {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.signup {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.signup button {
+    background-color: var(--accent-color);
 }
