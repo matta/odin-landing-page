@@ -106,13 +106,15 @@ img.information-image {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 60px;
     background-color: var(--hero-secondary-color);
 }
 
 blockquote {
     font-style: italic;
+    font-size: 1.5rem;
     flex-basis: 600px;
+    margin: 0;
 }
 
 cite {
