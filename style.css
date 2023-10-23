@@ -150,3 +150,9 @@ cite {
 .action-header {
     font-weight: bold;
 }
+
+.footer {
+    padding: 30px;
+    text-align: center;
+    color: var(--hero-secondary-color);
+}
