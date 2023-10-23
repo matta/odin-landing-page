@@ -1,4 +1,29 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.hero-secondary-text,
+.header-link-text {
+    color: #e5e7eb;
+}
+
+.dark {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header .links {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    gap: 20px;
 }
