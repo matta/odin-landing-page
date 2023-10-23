@@ -125,3 +125,28 @@ cite {
     text-align: right;
     display: block;
 }
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.action-box {
+    display: flex;
+    gap: 125px;
+    background-color: var(--accent-color);
+    color: var(--hero-primary-text-color);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.action-admonishment {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-header {
+    font-weight: bold;
+}
